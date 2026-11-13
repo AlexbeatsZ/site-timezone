@@ -1,0 +1,14 @@
+{
+  "name": "site-timezone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Configurable per-site timezone userscript with GitHub synchronization",
+  "scripts": {
+    "check": "node --check site-timezone.user.js",
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

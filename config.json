@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "enabled": true,
+  "rules": [
+    {
+      "name": "Telegram",
+      "enabled": true,
+      "patterns": [
+        "https://web.telegram.org/*"
+      ],
+      "timeZone": "Asia/Shanghai"
+    },
+    {
+      "name": "本地 Stapxs QQ Lite",
+      "enabled": true,
+      "patterns": [
+        "http://localhost:8081/*",
+        "http://127.0.0.1:8081/*",
+        "http://100.106.169.46:8081/*",
+        "http://100.113.70.121:8081/*",
+        "http://100.64.2.94:8081/*"
+      ],
+      "timeZone": "Asia/Shanghai"
+    },
+    {
+      "name": "ChatGPT / OpenAI",
+      "enabled": true,
+      "patterns": [
+        "https://*.chatgpt.com/*",
+        "https://*.openai.com/*"
+      ],
+      "timeZone": "America/Los_Angeles"
+    },
+    {
+      "name": "Claude / Anthropic",
+      "enabled": true,
+      "patterns": [
+        "https://*.claude.ai/*",
+        "https://*.claude.com/*",
+        "https://*.anthropic.com/*"
+      ],
+      "timeZone": "America/Los_Angeles"
+    },
+    {
+      "name": "Grok",
+      "enabled": true,
+      "patterns": [
+        "https://*.grok.com/*",
+        "https://*.x.ai/*",
+        "https://x.com/i/grok*"
+      ],
+      "timeZone": "America/Los_Angeles"
+    },
+    {
+      "name": "Gemini / AI Studio / NotebookLM",
+      "enabled": true,
+      "patterns": [
+        "https://gemini.google.com/*",
+        "https://aistudio.google.com/*",
+        "https://ai.google.dev/*",
+        "https://notebooklm.google.com/*",
+        "https://notebooklm.google/*"
+      ],
+      "timeZone": "America/Los_Angeles"
+    },
+    {
+      "name": "Perplexity / Copilot / Poe",
+      "enabled": true,
+      "patterns": [
+        "https://*.perplexity.ai/*",
+        "https://copilot.microsoft.com/*",
+        "https://*.copilot.com/*",
+        "https://*.poe.com/*"
+      ],
+      "timeZone": "America/Los_Angeles"
+    }
+  ]
+}
