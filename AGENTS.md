@@ -10,6 +10,7 @@ Maintain a self-contained Tampermonkey userscript that gives websites configurab
 - Default rules give Telegram and local Stapxs QQ Lite port 8081 Asia/Shanghai, and selected US AI platforms America/Los_Angeles.
 - This project is independent of `proxy-timezone-sync`. Users must disable overlapping older timezone scripts when installing.
 - GitHub configuration lives in `config.json`. Tokens are per-browser GM storage and must never enter repository files, exports or page DOM.
+- Verified 2026-11-13 against the real GitHub Contents API using a temporary branch, including userscript upload, Base64 readback and concurrent-change rejection. The temporary branch was deleted. Anonymous config/raw downloads also passed.
 
 # Active Work
 
